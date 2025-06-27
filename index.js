@@ -2,7 +2,7 @@
 
 function hasEvenNumber(arr) {
 
-    let foundEven = false;
+    let foundEven;
 
     for (let i = 0; i < arr.length; i++) {
 
@@ -12,7 +12,7 @@ function hasEvenNumber(arr) {
 
         } else if (arr[i] % 2 !== 0) {
 
-            foundEven = true;
+            foundEven = false;
 
         }
 
