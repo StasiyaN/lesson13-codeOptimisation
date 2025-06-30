@@ -2,23 +2,18 @@
 
 function hasEvenNumber(arr) {
 
-    let foundEven;
+    let foundEven = false;
 
     for (let i = 0; i < arr.length; i++) {
 
         if (arr[i] % 2 === 0) {
-
             foundEven = true;
-
-        } else if (arr[i] % 2 !== 0) {
-
-            foundEven = false;
-
+            break; // Прерываем цикл, как только нашли четное число
         }
-
     }
 
     return foundEven;
+}
 
 }
 
