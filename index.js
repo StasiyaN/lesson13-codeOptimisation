@@ -15,7 +15,6 @@ function hasEvenNumber(arr) {
     return foundEven;
 }
 
-}
 
 console.log(hasEvenNumber([1, 3, 4, 5])); // Ожидается: true
 
